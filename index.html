@@ -11,87 +11,102 @@
 
 <body>
     <header>
-        <h2 class="logo">PRIME UI</h2>
+        <h2 class="logo">PRIME UI<br>SuperCars</h2>
         <nav class="navigation">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">Contact</a>
-            <button class="btnLogin-popup">Login</button>
+            <button class="btnLogin-popup" onclick="window.location.href='login.html'">Login</button>
         </nav>
     </header>
+    
+    <div class="container">
+        <h3>Here are our new arrivals...</h3>
 
-    <div class="wrapper">
-        <span class="icon-close">
-            <ion-icon name="close-outline"></ion-icon>
-        </span>
-
-        <div class="form-box login">
-            <h2>Login</h2>
-            <form action="#">
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="mail"></ion-icon>
-                    </span>
-                    <input type="email" required>
-                    <label>Email</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="lock-closed"></ion-icon>
-                    </span>
-                    <input type="password" required>
-                    <label>Password</label>
-                </div>
-                <div class="remember-forgot">
-                    <label><input type="checkbox">Remember me</label>
-                    <a href="#">Forgot Password?</a>
-                </div>
-                <button type="submit" class="btn">Login</button>
-                <div class="login-register">
-                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
-                </div>
-            </form>
+        <div class="gallery">    
+            <img src="images/porsche-1.jpg" alt="Porsche">
+            <div class="desc">Porsche 918 Spyder<br>
+                <a href="https://media.porsche.com/mediakit/porsche-museum/en/the-porsche-museum/exhibitions/cars/918-spyder-2015" target="_blank" rel="noopener noreferrer">For car details</a></div>
+        </div>
+        <div class="gallery">    
+            <img src="images/maserati-2-3.jpg" alt="Maserati">
+            <div class="desc">Maserati MC20<br>
+                <a href="https://www.maserati.com/global/en/models/mc20" target="_blank" rel="noopener noreferrer">For car details</a></div>
+        </div>
+        <div class="gallery">    
+            <img src="images/lamborghini-2.jpg" alt="Lamborghini">
+            <div class="desc">Lamborghini Urus<br>
+                <a href="https://www.lamborghini.com/en-en/models/urus" target="_blank" rel="noopener noreferrer">For car details</a></div>
+        </div>
+        <div class="gallery">    
+            <img src="images/Ferrari-1.jpg" alt="Ferrari">
+            <div class="desc">Ferrari SF90 XX<br>
+                <a href="https://www.maserati.com/global/en/models/mc20" target="_blank" rel="noopener noreferrer">For car details</a></div>
+        </div>
+        <div class="gallery">    
+            <img src="images/lamborghini-1.jpg" alt="Lamborghini">
+            <div class="desc">Lamborghini Revuelto<br>
+                <a href="https://www.lamborghini.com/en-en/models/revuelto" target="_blank" rel="noopener noreferrer">For car details</a></div>
+        </div>
+        <div class="gallery">    
+            <img src="images/mclaren-3.jpg" alt="Mclaren">
+            <div class="desc">Mclaren 720S<br>
+                <a href="https://cars.mclaren.com/en/super-series/720s" target="_blank" rel="noopener noreferrer">For car details</a></div>
         </div>
 
-        <div class="form-box register">
-            <h2>Registration</h2>
-            <form action="#">
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="person"></ion-icon>
-                    </span>
-                    <input type="text" required>
-                    <label>Username</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="mail"></ion-icon>
-                    </span>
-                    <input type="email" required>
-                    <label>Email</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="lock-closed"></ion-icon>
-                    </span>
-                    <input type="password" required>
-                    <label>Password</label>
-                </div>
-                <div class="remember-forgot">
-                    <label><input type="checkbox">I agree to term & conditions</label>
-                </div>
-                <button type="submit" class="btn">Register</button>
-                <div class="login-register">
-                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
-                </div>
-            </form>
-        </div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Engine</th>
+                <th>Power</th>
+                <th>Torque</th>
+                <th>Weight</th>
+            </tr>
+            <tr>
+                <td>Porsche 918 Spyder</td>
+                <td>esgsg</td>
+                <td>887hp</td>
+                <td>1020NM</td>
+                <td>1300kg</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>hp</td>
+                <td>NM</td>
+                <td>kg</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>hp</td>
+                <td>NM</td>
+                <td>kg</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>hp</td>
+                <td>NM</td>
+                <td>kg</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>hp</td>
+                <td>NM</td>
+                <td>kg</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>hp</td>
+                <td>NM</td>
+                <td>kg</td>
+            </tr>
+        </table>
     </div>
 
-
-    <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

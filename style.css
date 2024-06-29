@@ -83,6 +83,63 @@ header {
     color: #162938;
 }
 
+.btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #000000;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.btnLogin-popup:hover {
+    background: #fff;
+    color: #162938;
+}
+
+.container {
+    padding-inline-start: 18%;
+    padding-top: 10%;
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+
+.gallery {
+    display: grid;
+    gap: 10px;
+    margin: 10px;
+    float: left;
+    width: 300px;
+}
+
+.gallery img {
+    float: left;
+    margin-right: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery .desc {
+    text-align: center;
+}
+
+.gallery .desc:hover {
+    background-color: rgb(127, 239, 252);
+}
+
+.welcome {
+    padding-inline-start: 18%;
+    padding-top: 10%;
+}
+
 .wrapper {
     position: relative;
     width: 400px;
