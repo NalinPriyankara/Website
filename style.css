@@ -83,26 +83,6 @@ header {
     color: #162938;
 }
 
-.btnLogin-popup {
-    width: 130px;
-    height: 50px;
-    background: transparent;
-    border: 2px solid #000000;
-    outline: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1.1em;
-    color: #000000;
-    font-weight: 500;
-    margin-left: 40px;
-    transition: .5s;
-}
-
-.btnLogin-popup:hover {
-    background: #fff;
-    color: #162938;
-}
-
 .container {
     padding-inline-start: 18%;
     padding-top: 10%;
@@ -135,38 +115,43 @@ header {
     background-color: rgb(127, 239, 252);
 }
 
-table {
+.container1 {
+    padding-inline-start: 15%;
+}
+
+.details{
     border-collapse: collapse;
     margin: 25px 0;
-    font-size: 0.9em;
+    padding: 30px;
+    font-size: 1.2em;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-table thead tr {
+details thead tr {
     background-color: #009879;
     color: #ffffff;
     text-align: left;
 }
 
-table th,
-table td {
+.details th,
+.details td {
     padding: 12px 15px;
 }
 
-table tbody tr {
+.details tbody tr {
     border-bottom: 1px solid #dddddd;
 }
 
-table tbody tr:nth-of-type(even) {
+.details tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
 }
 
-table tbody tr:last-of-type {
+.details tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
 
-table tbody tr.active-row {
+.details tbody tr.active-row {
     font-weight: bold;
     color: #009879;
 }
